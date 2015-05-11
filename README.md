@@ -81,14 +81,10 @@ La section la plus importante est `vendorFiles`, elle permet de lister tout les 
  
 `npm` 
 
-##Configuration du projet
+##Dépendances de build
 
-NPM va installer les outils nécessaires au build.
-
-- Télécharger le projet.    
-- Installer les dépendences de build :        
-`npm install`
-
+Utiliser la commande `npm install` afin d'installer les outils nécessaire au build.
+`
 ##Build du projet
 
 Utilisation de Gulp pour construire la distribution `dist`,   
