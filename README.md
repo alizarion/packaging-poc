@@ -38,7 +38,7 @@ Exemple d'archetype pour projet AgularJS,
               lib                            // libraires js
               scss
          index.html                          //index de developpement, link vers code sources.
-     dist
+     dist                                    //application de production correctement packagé
          index.html                          //index de production, link vers resources concaténées et minifiés    
                      
 
