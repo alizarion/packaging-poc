@@ -31,15 +31,15 @@ Exemple d'archetype pour projet AgularJS,
                  resources
                      userResource.js
                  userService.js
-         assets                              // contient les resources applicatif
+         assets                              // contient les resources.
               css                            // css, et distination des scss
               img                            // images
               js                             // simple scripts js
               lib                            // libraires js
               scss
-         index.html                          //index de developpement, link vers code sources.
+         index.html                          //index de developpement, lié au code sources.
      dist                                    //application de production correctement packagé
-         index.html                          //index de production, link vers resources concaténées et minifiés    
+         index.html                          //index de production, lié aux fichiers généré par le build   
                      
 
 ##Configuration du build
@@ -64,7 +64,7 @@ Il comprend les sections suivantes
                     closureStart: '(function() {\n',
                     closureEnd: '\n})();',
                     /**
-                     * Liste des fichiers JS de l'application qui seront minifier pour la prod.
+                     * Liste des fichiers JS de l'application qui seront minifié pour la prod.
                      */
                     appFiles: [
                        ...
@@ -74,7 +74,7 @@ Il comprend les sections suivantes
                     ]
                 };
 
-La section la plus importante est `vendorFiles`, elle permet de lister tout les fichiers de librairie utilisé par l'application.
+La section la plus importante est `vendorFiles`, elle permet de lister tous les fichiers des librairies utilisées par l'application.
 
 
 ##Prérequis
@@ -83,7 +83,7 @@ La section la plus importante est `vendorFiles`, elle permet de lister tout les 
 
 ##Dépendances de build
 
-Utiliser la commande `npm install` afin d'installer les outils nécessaire au build.
+Utiliser la commande `npm install` afin d'installer les outils nécessaires au build.
 `
 ##Build du projet
 
