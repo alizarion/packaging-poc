@@ -87,10 +87,9 @@ Utiliser la commande `npm install` afin d'installer les outils nécessaires au b
 `
 ##Build du projet
 
-Utilisation de Gulp pour construire la distribution `dist`,   
-les fichiers Javascript et SCSS/CSS sont concaténés et minifiés.     
+Utilisation de Gulp pour construire la distribution `dist`. 
+la commande `gulp build` exécute l'ensemble des tâches permettant de générer la distribution.
 
-                gulp build
   
                 output :    
                 
@@ -106,6 +105,6 @@ les fichiers Javascript et SCSS/CSS sont concaténés et minifiés.
                             Finished 'sass' after 634 ms
                                
 
-seul les fichiers nécessaires à la production seront importés dans `dist`.
+
 
    
