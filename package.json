@@ -11,11 +11,11 @@
     "gulp-uglify": "^1.2.0"
   },
     "scripts": {
-    "install": "npm install -g gulp"
+    "install": "npm install -g gulp",
      "install": "npm install -g bower"
   },
   "devDependencies": {
     "gulp-util": "^2.2.14",
-    "shelljs": "^0.3.0"
+    "shelljs" : "^0.3.0"
   }
 }
